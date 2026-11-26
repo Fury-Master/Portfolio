@@ -15,54 +15,32 @@
     <title>TechHive | Accessible Digital Learning </title>
 </head>
 <body>
-        <header>
-        <div class="header-right">
-            <div class="header-top">
-                <a href="index.html"><img src="images/logos/TechHive-logo.png" alt="TechHive logo" title="Image sized 154kb" width="200" height="200" ></a> <!-- I generated this image with Shopify logo generator -->
-                <div class="header-title"> 
-                    <h1>TechHive</h1>
-                    <p><em>Empowering Digital Learning</em></p>
+    <header>
+        <div class="header">
+            <div class="beginning">
+                <!--Title-->
+                <div class="title">
+                    <h1>My Portfolio</h1>
+                </div>
+                <!--Intro-->
+                <div class="intro">
+                    <p>This is my portfolio that I coded myself for work I have done over the years</p>
                 </div>
             </div>
 
-            <!--SEARCH BOX with a button (search for a product)-->
             <div class="search-bar">
                 <form action="search.php" method="get">
                     <fieldset>
-                        <legend>Search for courses</legend>
-                        <label for="search-query">Course Title or Keyword</label>
+                        <label for="search-query">Search for work</label>
                         <input type="search" id="search-query" name="search-query" placeholder="e.g., UI Design, Python Programming, etc."
                         aria-label="Search through site content">
-
-                        <!-- Filter dropdown -->
-                        <label for="course-filter">Filter by Category:</label>
-                        <select id="course-filter" name="course-filter" class="filter-row">
-                            <option value="all">All Courses</option>
-                            <option value="Web Development">Web Development</option> 
-                            <option value="Design">Design</option>
-                            <option value="Data Science">Data Science</option>
-                        </select>
-
-                        <label for="course-level">Filter by Level:</label>
-                        <select id="course-level" name="course-level" class="filter-row">
-                            <option value="all">All Levels</option>
-                            <option value="Beginner">Beginner</option>
-                            <option value="Intermediate">Intermediate</option>
-                            <option value="Advanced">Advanced</option>
-                        </select>
-
                         <button type="submit" aria-label="Search" style="font-size: 1.5rem;">&#8981;</button>
-                    </fieldset>                
+                    </fieldset>        
                 </form>
             </div>
         </div>
-        
     </header>
 
-    <!--Slogan-->
-    <div class="slogan">
-        <h1>Tech-Enabled Learning for Everyone</h1>
-    </div>
     <hr>
 
     <!--======== MAIN CONTENT ===============-->
